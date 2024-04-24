@@ -33,5 +33,4 @@ describe('Assert Link and menu', () => {
     cy.visit('https://www.techinasia.com/')
     cy.get('span[class="jsx-2211675673"]').contains('💼 Latest Jobs')
   })
-
 })
